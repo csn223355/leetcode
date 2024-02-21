@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# 编译目录
+/build/
