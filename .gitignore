@@ -33,3 +33,5 @@
 
 # 编译目录
 /build/
+# vscode配置文件 
+/.vscode/

@@ -24,7 +24,8 @@ public:
     int getSum(int n){   // 计算一个数的每位的平方之和
         int sum{0};
         while(n){
-            sum += (n % 10) * (n % 10);
+            int temp {n % 10};
+            sum += temp * temp;
             n /= 10;
         }
         return sum;
